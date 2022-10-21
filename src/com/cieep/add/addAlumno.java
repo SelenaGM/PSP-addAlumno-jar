@@ -17,6 +17,18 @@ public class addAlumno {
         File destinoFinal = new File(destino);
         BufferedWriter bw = null;
 
+        /*SOLUCION DE EDU
+        * File fichero = new File(ficheroName);
+        * PrintWriter printWriter = new PrintWriter(fichero);
+        * String linea;
+        *
+        * while(!(linea = sc.nextLine()).isEmpty()){
+        * printWriter.println(linea);
+        *
+        * }
+        * printWriter.close();
+        * */
+
         try {
             bw = new BufferedWriter(new FileWriter(destinoFinal, true));
 
